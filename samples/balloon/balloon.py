@@ -66,7 +66,7 @@ class BalloonConfig(Config):
     IMAGES_PER_GPU = 2
 
     # Number of classes (including background)
-    NUM_CLASSES = 1 + 1  # Background + balloon
+    NUM_CLASSES = 1 + 3  # Background + number of classes
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 100
